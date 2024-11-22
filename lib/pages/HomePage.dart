@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
-        title: Text("TO DO"),
+        title: Text("Jamil the goat"),
         backgroundColor: Colors.yellow,
         elevation: 0,
       ),

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/HomePage.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-
 void main() async{
   //init the hive
   await Hive.initFlutter();
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: HomePage(),
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primaryColor: Colors.yellow),
+      theme: ThemeData(primaryColor: Colors.green),
     );
   }
 }
